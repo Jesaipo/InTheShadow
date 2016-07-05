@@ -10,6 +10,24 @@ TagManager:
   - MenuManager
   - GameOverManager
   - PlayerManager
+  - Tree
+  - TreeAnimation
+  - Trunk
+  - CanChopTree
+  - Fire
+  - TreeManager
+  - Beaver
+  - SpawnArea
+  - CameraManager
+  - BeaversManager
+  - AudioManager
+  - TreeBrotherPosition
+  - PivotPoint
+  - ParallaxManager
+  - SmashTree
+  - WeaponTree
+  - GripTree
+  - Terrain
   layers:
   - Default
   - TransparentFX
@@ -19,8 +37,8 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
+  - Light
+  - Darkness
   - 
   - 
   - 
