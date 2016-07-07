@@ -223,6 +223,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 978681565}
+  - 114: {fileID: 978681566}
   m_Layer: 0
   m_Name: Camera
   m_TagString: Untagged
@@ -245,6 +246,22 @@ Transform:
   - {fileID: 1078640080}
   m_Father: {fileID: 0}
   m_RootOrder: 0
+--- !u!114 &978681566
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 978681564}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d8238cc53530b64fbb7828c3d3bb591, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 982539071}
+  damping: 0.4
+  lookAheadFactor: 0.6
+  lookAheadReturnSpeed: 0.6
+  lookAheadMoveThreshold: 0.6
 --- !u!1 &982539068
 GameObject:
   m_ObjectHideFlags: 0
