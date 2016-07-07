@@ -1,12 +1,11 @@
 using System;
 using UnityEngine;
 
-namespace UnityStandardAssets._2D
-{
-    public class PlatformerCharacter2D : MonoBehaviour
+    public class SwanController : MonoBehaviour
     {
         [SerializeField] private float m_MaxSpeed = 10f;                    // The fastest the player can travel in the x axis.
-        [SerializeField] private float m_JumpForce = 400f;                  // Amount of force added when the player jumps.
+        [SerializeField] private float m_JumpForce = 400f;
+		[SerializeField] private float m_SecondJumpForce = 400f;// Amount of force added when the player jumps.
         [Range(0, 1)] [SerializeField] private float m_CrouchSpeed = .36f;  // Amount of maxSpeed applied to crouching movement. 1 = 100%
         [SerializeField] private bool m_AirControl = false;                 // Whether or not a player can steer while jumping;
         [SerializeField] private LayerMask m_WhatIsGround;                  // A mask determining what is ground to the character
@@ -20,6 +19,7 @@ namespace UnityStandardAssets._2D
         private Rigidbody2D m_Rigidbody2D;
         private bool m_FacingRight = true;  // For determining which way the player is currently facing.
 
+	private bool m_SecondJumpAvaible = false;
         private void Awake()
         {
             // Setting up references.
@@ -41,6 +41,7 @@ namespace UnityStandardAssets._2D
             {
                 if (colliders[i].gameObject != gameObject)
                     m_Grounded = true;
+				m_SecondJumpAvaible = true;
             }
             m_Anim.SetBool("Ground", m_Grounded);
 
@@ -89,14 +90,24 @@ namespace UnityStandardAssets._2D
                     Flip();
                 }
             }
+
+		if (jump && m_SecondJumpAvaible && !m_Grounded) {
+			m_SecondJumpAvaible = false;
+			m_Anim.SetTrigger ("DoubleJump");
+			m_Anim.SetBool("OnDoubleJump", true);
+			m_Rigidbody2D.AddForce(new Vector2(0f, m_SecondJumpForce));
+		}
             // If the player should jump...
             if (m_Grounded && jump && m_Anim.GetBool("Ground"))
             {
                 // Add a vertical force to the player.
                 m_Grounded = false;
-                m_Anim.SetBool("Ground", false);
+				m_Anim.SetBool("Ground", false);
+				m_Anim.SetBool("OnDoubleJump", false);
                 m_Rigidbody2D.AddForce(new Vector2(0f, m_JumpForce));
             }
+
+
         }
 
 
@@ -111,4 +122,4 @@ namespace UnityStandardAssets._2D
             transform.localScale = theScale;
         }
     }
-}
+
