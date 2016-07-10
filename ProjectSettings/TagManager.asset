@@ -28,6 +28,8 @@ TagManager:
   - WeaponTree
   - GripTree
   - Terrain
+  - Death
+  - End
   layers:
   - Default
   - TransparentFX

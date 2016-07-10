@@ -16,7 +16,7 @@ public class GameStateManager : MonoBehaviour {
 	void Awake(){
 		if(m_instance == null){
 			//If I am the first instance, make me the Singleton
-			m_gameState = GameState.Playing;
+			m_gameState = GameState.Menu;
 			m_instance = this;
 			DontDestroyOnLoad(this.gameObject);
 		}else{
