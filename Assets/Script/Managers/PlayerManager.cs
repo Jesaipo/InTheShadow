@@ -15,8 +15,13 @@ public class PlayerManager : MonoBehaviour {
 			if(this != m_instance)
 				Destroy(this.gameObject);
 		}
+		m_swanController = GetComponentInChildren<SwanController>();
 	}
 	#endregion Singleton
+
+	SwanController m_swanController;
+
+	public Camera lightCamera;
 
 	// Use this for initialization
 	void Start () {
@@ -33,20 +38,36 @@ public class PlayerManager : MonoBehaviour {
 	}
 
 	#region Intéraction
-	public static void UP(){
+	public void UP(){
 		Debug.Log("UP ! ");
+		m_swanController.Move (0, false, true);
 	}
 
-	public static void DOWN(){
+	public void DOWN(){
 		Debug.Log("DOWN ! ");
 	}
 
-	public static void LEFT(){
+	public void LEFT(){
 		Debug.Log("LEFT ! ");
+		m_swanController.Move (-1, false, false);
 	}
 
-	public static void RIGHT(){
+	public void RIGHT(){
 		Debug.Log("RIGHT ! ");
+		m_swanController.Move (1, false, false);
+	}
+
+	public void ChangeWorld() {
+		if (lightCamera.enabled) {
+			lightCamera.enabled = false;
+		} else {
+			lightCamera.enabled = true;
+		}
+			
+	
+	}
+	public void Default(){
+		m_swanController.Move (0, false, false);
 	}
 	#endregion Intéraction
 

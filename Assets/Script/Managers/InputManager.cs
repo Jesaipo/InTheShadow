@@ -49,26 +49,38 @@ public class InputManager : MonoBehaviour {
 	}
 
 	void UpdatePlayingState(){
+		bool doSmth = false;
 		if(Input.GetKeyDown("p")){
 			Debug.Log("PAUSE ! ");
 			GameStateManager.setGameState(GameState.Pause);
 		}
 
-		if(Input.GetKeyDown("z") || Input.GetKeyDown("w")){
-			PlayerManager.UP();
+		if(Input.GetKeyDown("z") || Input.GetKeyDown("w")|| Input.GetKeyDown(KeyCode.Space)){
+			PlayerManager.m_instance.UP();
+			doSmth = true;
 		}
 		
-		if(Input.GetKeyDown("q") || Input.GetKeyDown("a")){
-			PlayerManager.LEFT();
+		if(Input.GetKey("q") || Input.GetKey("a")){
+			PlayerManager.m_instance.LEFT();
+			doSmth = true;
 		}
 		
-		if(Input.GetKeyDown("s")){
-			PlayerManager.DOWN ();
+		if(Input.GetKey("s")){
+			PlayerManager.m_instance.DOWN ();
+			doSmth = true;
 		}
 		
-		if(Input.GetKeyDown("d")){
-			PlayerManager.RIGHT();
+		if(Input.GetKey("d")){
+			PlayerManager.m_instance.RIGHT();
+			doSmth = true;
 		}
+		if(Input.GetKeyDown("e")){
+			PlayerManager.m_instance.ChangeWorld();
+			doSmth = true;
+		}
+
+		if(!doSmth)
+			PlayerManager.m_instance.Default();
 	}
 
 	void UpdatePauseState(){
