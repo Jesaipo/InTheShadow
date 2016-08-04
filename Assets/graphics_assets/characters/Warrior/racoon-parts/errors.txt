@@ -1,0 +1,39 @@
+[Sun Aug 24 2014 22:24:52 GMT+0200 (CEST)] Layer "R-EPAULETTE.png": Duplicate file name: R-EPAULETTE.png
+[Sun Aug 24 2014 22:24:52 GMT+0200 (CEST)] Layer "sword-shadow.png": Duplicate file name: sword-shadow.png
+[Sun Aug 24 2014 22:24:52 GMT+0200 (CEST)] Layer "R-GAUNTLET.png": Duplicate file name: R-GAUNTLET.png
+[Sun Aug 24 2014 22:25:20 GMT+0200 (CEST)] Layer "retine.png copie": Expected end of input but "c" found.
+[Sun Aug 24 2014 22:25:20 GMT+0200 (CEST)] Layer "left-arm.png": Duplicate file name: left-arm.png
+[Sun Aug 24 2014 22:28:27 GMT+0200 (CEST)] Layer "left-gauntlet.png": Duplicate file name: left-gauntlet.png
+[Sun Aug 24 2014 22:25:20 GMT+0200 (CEST)] Layer "left-epaulette.png": Duplicate file name: left-epaulette.png
+[Sun Aug 24 2014 22:25:20 GMT+0200 (CEST)] Layer "ARMOR.png": Duplicate file name: ARMOR.png
+[Sun Aug 24 2014 22:25:20 GMT+0200 (CEST)] Layer "tail.png": Duplicate file name: tail.png
+[Sun Aug 24 2014 22:25:20 GMT+0200 (CEST)] Layer "TAIL.png": Duplicate file name: TAIL.png
+[Sun Aug 24 2014 22:25:37 GMT+0200 (CEST)] Layer "r-arm-shadow.png": Duplicate file name: r-arm-shadow.png
+[Sun Aug 24 2014 22:24:52 GMT+0200 (CEST)] Layer "left-leg.png": Duplicate file name: left-leg.png
+[Sun Aug 24 2014 22:24:52 GMT+0200 (CEST)] Layer "right-leg.png": Duplicate file name: right-leg.png
+[Sun Aug 24 2014 22:24:52 GMT+0200 (CEST)] Layer "downer-body-part.png": Duplicate file name: downer-body-part.png
+[Sun Aug 24 2014 22:24:52 GMT+0200 (CEST)] Layer "l-shoe.png": Duplicate file name: l-shoe.png
+[Sun Aug 24 2014 22:24:52 GMT+0200 (CEST)] Layer "r-shoe.png": Duplicate file name: r-shoe.png
+[Sun Aug 24 2014 22:24:52 GMT+0200 (CEST)] Layer "L-BGFACE.png": Duplicate file name: L-BGFACE.png
+[Sun Aug 24 2014 22:24:52 GMT+0200 (CEST)] Layer "left-eyeball.png": Duplicate file name: left-eyeball.png
+[Sun Aug 24 2014 22:24:52 GMT+0200 (CEST)] Layer "retine.png copie": Expected end of input but "c" found.
+[Sun Aug 24 2014 22:24:52 GMT+0200 (CEST)] Layer "head-bg.png": Duplicate file name: head-bg.png
+[Sun Aug 24 2014 22:24:52 GMT+0200 (CEST)] Layer "right-head-light.png": Duplicate file name: right-head-light.png
+[Sun Aug 24 2014 22:24:52 GMT+0200 (CEST)] Layer "left-stain-light.png": Duplicate file name: left-stain-light.png
+[Sun Aug 24 2014 22:24:52 GMT+0200 (CEST)] Layer "face-shadow.png": Duplicate file name: face-shadow.png
+[Sun Aug 24 2014 22:24:52 GMT+0200 (CEST)] Layer "left-eyebrown.png": Duplicate file name: left-eyebrown.png
+[Sun Aug 24 2014 22:24:52 GMT+0200 (CEST)] Layer "head dark.png": Duplicate file name: head dark.png
+[Sun Aug 24 2014 22:24:52 GMT+0200 (CEST)] Layer "eye-closed-right.png": Duplicate file name: eye-closed-right.png
+[Sun Aug 24 2014 22:24:52 GMT+0200 (CEST)] Layer "eye-closed-left.png": Duplicate file name: eye-closed-left.png
+[Sun Aug 24 2014 22:24:52 GMT+0200 (CEST)] Layer "eye contour.png": Duplicate file name: eye contour.png
+[Sun Aug 24 2014 22:24:52 GMT+0200 (CEST)] Layer "eyeball.PNG": Duplicate file name: eyeball.PNG
+[Sun Aug 24 2014 22:24:52 GMT+0200 (CEST)] Layer "retine.png": Duplicate file name: retine.png
+[Sun Aug 24 2014 22:24:52 GMT+0200 (CEST)] Layer "eyebrown.png": Duplicate file name: eyebrown.png
+[Sun Aug 24 2014 22:24:52 GMT+0200 (CEST)] Layer "left-ear.png": Duplicate file name: left-ear.png
+[Sun Aug 24 2014 22:24:52 GMT+0200 (CEST)] Layer "R-EAR.png": Duplicate file name: R-EAR.png
+[Sun Aug 24 2014 22:24:52 GMT+0200 (CEST)] Layer "mouth.png": Duplicate file name: mouth.png
+[Sun Aug 24 2014 22:24:52 GMT+0200 (CEST)] Layer "nose.png": Duplicate file name: nose.png
+[Sun Aug 24 2014 22:24:52 GMT+0200 (CEST)] Layer "mouse.png": Duplicate file name: mouse.png
+[Sun Aug 24 2014 22:24:52 GMT+0200 (CEST)] Layer "sword.png": Duplicate file name: sword.png
+[Sun Aug 24 2014 22:24:52 GMT+0200 (CEST)] Layer "SWORD.png": Duplicate file name: SWORD.png
+[Sun Aug 24 2014 22:24:52 GMT+0200 (CEST)] Layer "R-ARM.png": Duplicate file name: R-ARM.png
